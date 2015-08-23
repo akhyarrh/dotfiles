@@ -1,0 +1,4 @@
+.gitignore skip
+
+.atom recurse
+.ssh recurse

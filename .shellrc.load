@@ -1,0 +1,10 @@
+# includes user's private bin
+if [ -d "$HOME/bin" ] ; then
+  PATH="$HOME/bin:$PATH"
+fi
+
+if [ -d $HOME/.shell/ ]; then
+  for file in $HOME/.shell/*.bash; do
+    source $file
+  done
+fi

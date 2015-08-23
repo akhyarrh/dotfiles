@@ -1,0 +1,13 @@
+[user]
+	email = akhyarrh@gmail.com
+	name = Akhyar Rahman Hidayat
+[push]
+	default = matching
+[alias]
+  stat = status -s
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	ui = !gitg
+	sync = pull --rebase
+[core]
+	quotepath = off
