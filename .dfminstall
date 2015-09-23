@@ -1,4 +1,5 @@
 .gitignore skip
+README.md skip
 
 .atom recurse
 .ssh recurse
