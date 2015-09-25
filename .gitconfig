@@ -9,5 +9,6 @@
 	last = log -1 HEAD
 	ui = !gitg
 	sync = pull --rebase
+  changelog = log --pretty=format:'#%h %s' --abbrev-commit -- > CHANGELOG
 [core]
 	quotepath = off
