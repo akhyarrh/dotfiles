@@ -1,4 +1,5 @@
 .gitignore skip
+LICENSE skip
 README.md skip
 
 .atom recurse
