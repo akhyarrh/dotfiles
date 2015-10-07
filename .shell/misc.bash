@@ -1,3 +1,6 @@
+# axel
+alias axel="axel -a -N -n 20"
+
 # c
 alias c="reset"
 
@@ -44,7 +47,7 @@ alias reload="reset; source ~/.bashrc"
 alias sublime="/opt/sublime_text/sublime_text"
 
 # time
-alias time="date +"%d-%m-%Y_%T""
+alias time="date + %d-%m-%Y_%T"
 
 # wget
 alias wget="wget -c --no-proxy"
