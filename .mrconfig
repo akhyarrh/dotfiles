@@ -1,0 +1,27 @@
+
+[project/akhyarrh.github.io]
+checkout = git clone 'git@github.com:akhyarrh/akhyarrh.github.io.git' 'akhyarrh.github.io'
+
+[project/dotfiles]
+checkout = git clone 'git@github.com:akhyarrh/dotfiles.git' 'dotfiles'
+
+[project/dotfiles-private]
+checkout = git clone '/home/akhyarrh/MEGA/dotfiles-private' 'dotfiles-private'
+
+[project/grav-test]
+checkout = git clone 'git@github.com:akhyarrh/grav-test.git' 'grav-test'
+
+[project/jekyll-boilerplate]
+checkout = git clone 'git@github.com:nectktar/jekyll-boilerplate.git' 'jekyll-boilerplate'
+
+[project/nectktar.github.io]
+checkout = git clone 'git@github.com:nectktar/nectktar.github.io.git' 'nectktar.github.io'
+
+[project/ness]
+checkout = git clone 'git@github.com:nectktar/ness.git' 'ness'
+
+[project/Serum]
+checkout = git clone 'git@github.com:walutisme/Serum.git' 'Serum'
+
+[project/userstyles]
+checkout = git clone 'git@gist.github.com:bbc162d418844771878a.git' 'userstyles'
