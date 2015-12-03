@@ -53,3 +53,7 @@ pip() {
     /usr/bin/pip "$@"
   fi
 }
+
+function ytdl-img {
+  wget -c --no-proxy http://img.youtube.com/vi/"$1"/0.jpg
+}
