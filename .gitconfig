@@ -10,4 +10,8 @@
 	sync = pull --rebase
   changelog = log --pretty=format:'#%h %s' --abbrev-commit -- > CHANGELOG
 [core]
-	quotepath = off
+	quotepath = false
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
