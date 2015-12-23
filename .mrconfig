@@ -14,14 +14,92 @@ checkout = git clone 'git@github.com:akhyarrh/grav-test.git' 'grav-test'
 [project/jekyll-boilerplate]
 checkout = git clone 'git@github.com:nectktar/jekyll-boilerplate.git' 'jekyll-boilerplate'
 
-[project/nectktar.github.io]
-checkout = git clone 'git@github.com:nectktar/nectktar.github.io.git' 'nectktar.github.io'
-
 [project/ness]
 checkout = git clone 'git@github.com:nectktar/ness.git' 'ness'
 
-[project/Serum]
-checkout = git clone 'git@github.com:walutisme/Serum.git' 'Serum'
+[project/vendor/bootstrap]
+checkout = git clone 'https://github.com/twbs/bootstrap' 'bootstrap'
 
-[project/userstyles]
-checkout = git clone 'git@gist.github.com:bbc162d418844771878a.git' 'userstyles'
+[project/vendor/chruby]
+checkout = git clone 'git://github.com/postmodern/chruby.git' 'chruby'
+
+[project/vendor/colors]
+checkout = git clone 'https://github.com/mrmrs/colors' 'colors'
+
+[project/vendor/dfm]
+checkout = git clone 'https://github.com/justone/dfm' 'dfm'
+
+[project/vendor/Font-Awesome]
+checkout = git clone 'https://github.com/FortAwesome/Font-Awesome' 'Font-Awesome'
+
+[project/vendor/grav-skeleton-blog-site]
+checkout = git clone 'https://github.com/getgrav/grav-skeleton-blog-site.git' 'grav-skeleton-blog-site'
+
+[project/vendor/grav-skeleton-onepage-site]
+checkout = git clone 'https://github.com/getgrav/grav-skeleton-onepage-site' 'grav-skeleton-onepage-site'
+
+[project/vendor/hostsblock]
+checkout = git clone 'https://github.com/gaenserich/hostsblock' 'hostsblock'
+
+[project/vendor/html5-boilerplate]
+checkout = git clone 'https://github.com/h5bp/html5-boilerplate.git' 'html5-boilerplate'
+
+[project/vendor/hub]
+checkout = git clone 'https://github.com/github/hub' 'hub'
+
+[project/vendor/impress.js]
+checkout = git clone 'git@github.com:impress/impress.js.git' 'impress.js'
+
+[project/vendor/jekyll]
+checkout = git clone 'https://github.com/jekyll/jekyll.git' 'jekyll'
+
+[project/vendor/jekyll-compress-html]
+checkout = git clone 'https://github.com/penibelst/jekyll-compress-html' 'jekyll-compress-html'
+
+[project/vendor/long-haul]
+checkout = git clone 'https://github.com/brianmaierjr/long-haul.git' 'long-haul'
+
+[project/vendor/markdown-here.wiki]
+checkout = git clone 'https://github.com/adam-p/markdown-here.wiki.git' 'markdown-here.wiki'
+
+[project/vendor/mediator]
+checkout = git clone 'https://github.com/dirkfabisch/mediator' 'mediator'
+
+[project/vendor/myrepos]
+checkout = git clone 'https://github.com/joeyh/myrepos.git' 'myrepos'
+
+[project/vendor/normalize.css]
+checkout = git clone 'https://github.com/necolas/normalize.css.git' 'normalize.css'
+
+[project/vendor/Office-Code-Pro]
+checkout = git clone 'https://github.com/nathco/Office-Code-Pro.git' 'Office-Code-Pro'
+
+[project/vendor/poole]
+checkout = git clone 'https://github.com/poole/poole' 'poole'
+
+[project/vendor/potion]
+checkout = git clone 'https://github.com/captn3m0/potion.git' 'potion'
+
+[project/vendor/prefixfree]
+checkout = git clone 'https://github.com/LeaVerou/prefixfree.git' 'prefixfree'
+
+[project/vendor/pygments-css]
+checkout = git clone 'https://github.com/richleland/pygments-css' 'pygments-css'
+
+[project/vendor/ruby-install]
+checkout = git clone 'git://github.com/postmodern/ruby-install.git' 'ruby-install'
+
+[project/vendor/sexy-bash-prompt]
+checkout = git clone 'https://github.com/twolfson/sexy-bash-prompt' 'sexy-bash-prompt'
+
+[project/vendor/skeleton]
+checkout = git clone 'https://github.com/dhg/skeleton' 'skeleton'
+
+[project/vendor/Skeleton-Sass]
+checkout = git clone 'https://github.com/whatsnewsaes/Skeleton-Sass.git' 'Skeleton-Sass'
+
+[project/vendor/Hover]
+checkout = git clone 'git@github.com:IanLunn/Hover.git' 'Hover'
+
+[project/vendor/animate.scss]
+checkout = git clone 'git@github.com:geoffgraham/animate.scss.git' 'animate.scss'
