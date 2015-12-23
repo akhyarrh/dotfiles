@@ -3,6 +3,9 @@
 #ytdl
 alias ytdl="youtube-dl"
 
+# ytdl-360
+alias ytdl-360="youtube-dl -f 'mp4[height<=?360]'"
+
 # ytdl-480
 alias ytdl-480="youtube-dl -f 'mp4[height<=?480]'"
 
