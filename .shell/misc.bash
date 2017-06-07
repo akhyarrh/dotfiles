@@ -10,9 +10,6 @@ alias calc="bc -l"
 # change-dns
 alias change-dns="sudo nano /etc/dhcp/dhclient.conf && sudo /etc/init.d/networking force-reload"
 
-# check-url
-alias check-url="sudo hostsblock-urlcheck"
-
 # df
 alias df="df -Tha --total"
 
@@ -42,9 +39,6 @@ alias psf="ps aux | grep -v grep | grep -i -e VSZ -e"
 
 # reload
 alias reload="reset; source ~/.bashrc"
-
-# sublime
-alias sublime="/opt/sublime_text/sublime_text"
 
 # time
 alias time="date + %d-%m-%Y_%T"
