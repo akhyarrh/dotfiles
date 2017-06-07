@@ -1,17 +1,3 @@
-# pw
-# generate 10 chars password and save to file
-# if exist, copy existing file to clipboard instead
-# usage: pw $site-name
-
-function pw {
-  if [ -e ~/.pw/$1 ]; then
-    cat ~/.pw/$1 | xclip -selection clipboard
-  else
-    cat /dev/urandom | tr -cd '[:graph:]' | fold -w 10 | head -n 1 > ~/.pw/$1
-    cat ~/.pw/$1 | xclip -selection clipboard
-  fi
-}
-
 function extract {
  if [ -z "$1" ]; then
     # display usage if no parameters given
