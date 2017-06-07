@@ -1,5 +1,3 @@
 .gitignore skip
 LICENSE skip
 README.md skip
-
-.ssh recurse
