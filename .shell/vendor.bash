@@ -5,9 +5,9 @@ source ~/.nvm/nvm.sh
 eval "$(hub alias -s)"
 
 # Python user bin
-PATH=$PATH:~/.local/bin
+#PATH=$PATH:~/.local/bin
 
 # Golang
-export GOROOT=$HOME/.go
-export GOPATH=$HOME/.local/go
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+#export GOROOT=$HOME/.go
+#export GOPATH=$HOME/.local/go
+#export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
