@@ -25,3 +25,6 @@ if [[ ! -d "~/.qfc" ]]; then
   echo "[[ -s "~/.qfc/bin/qfc.sh" ]] && source "~/.qfc/bin/qfc.sh"" >> ~/.bashrc
   echo "qfc installed."
 fi
+
+./bin/dfm install
+
