@@ -4,7 +4,7 @@
 [push]
   default = matching
 [alias]
-  stat = status -s
+  stat = status -sb
   unstage = reset HEAD --
   last = log -1 HEAD
   sync = pull --rebase
